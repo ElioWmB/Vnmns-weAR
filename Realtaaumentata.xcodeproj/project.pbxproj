@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		421B2CCF276A8AF8006C82F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 421B2CCE276A8AF8006C82F0 /* Assets.xcassets */; };
 		42487AF7275F58AB00ABEC18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42487AF6275F58AB00ABEC18 /* AppDelegate.swift */; };
 		42487AF9275F58AB00ABEC18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42487AF8275F58AB00ABEC18 /* ContentView.swift */; };
 		42487AFB275F58AB00ABEC18 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 42487AFA275F58AB00ABEC18 /* Experience.rcproject */; };
-		42487AFD275F58AD00ABEC18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42487AFC275F58AD00ABEC18 /* Assets.xcassets */; };
 		42487B00275F58AD00ABEC18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42487AFF275F58AD00ABEC18 /* Preview Assets.xcassets */; };
 		42487B0A275F58AD00ABEC18 /* RealtaaumentataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42487B09275F58AD00ABEC18 /* RealtaaumentataTests.swift */; };
 		42487B14275F58AD00ABEC18 /* RealtaaumentataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42487B13275F58AD00ABEC18 /* RealtaaumentataUITests.swift */; };
 		42487B16275F58AD00ABEC18 /* RealtaaumentataUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42487B15275F58AD00ABEC18 /* RealtaaumentataUITestsLaunchTests.swift */; };
+		42487B242761F72200ABEC18 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42487B232761F72200ABEC18 /* ShopView.swift */; };
+		42487B26276223DB00ABEC18 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42487B25276223DB00ABEC18 /* Data.swift */; };
+		42B5705327635A1D00F908D8 /* Clothes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B5705227635A1D00F908D8 /* Clothes.swift */; };
+		42B5705527635B4A00F908D8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B5705427635B4A00F908D8 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,17 +39,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		42487AF3275F58AB00ABEC18 /* Realtaaumentata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Realtaaumentata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		421B2CCE276A8AF8006C82F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42487AF3275F58AB00ABEC18 /* Vnmns weAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vnmns weAR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42487AF6275F58AB00ABEC18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42487AF8275F58AB00ABEC18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		42487AFA275F58AB00ABEC18 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
-		42487AFC275F58AD00ABEC18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42487AFF275F58AD00ABEC18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		42487B05275F58AD00ABEC18 /* RealtaaumentataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealtaaumentataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42487B09275F58AD00ABEC18 /* RealtaaumentataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtaaumentataTests.swift; sourceTree = "<group>"; };
 		42487B0F275F58AD00ABEC18 /* RealtaaumentataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealtaaumentataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42487B13275F58AD00ABEC18 /* RealtaaumentataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtaaumentataUITests.swift; sourceTree = "<group>"; };
 		42487B15275F58AD00ABEC18 /* RealtaaumentataUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtaaumentataUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		42487B232761F72200ABEC18 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		42487B25276223DB00ABEC18 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		42B5705227635A1D00F908D8 /* Clothes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clothes.swift; sourceTree = "<group>"; };
+		42B5705427635B4A00F908D8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +94,7 @@
 		42487AF4275F58AB00ABEC18 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				42487AF3275F58AB00ABEC18 /* Realtaaumentata.app */,
+				42487AF3275F58AB00ABEC18 /* Vnmns weAR.app */,
 				42487B05275F58AD00ABEC18 /* RealtaaumentataTests.xctest */,
 				42487B0F275F58AD00ABEC18 /* RealtaaumentataUITests.xctest */,
 			);
@@ -97,9 +105,12 @@
 			isa = PBXGroup;
 			children = (
 				42487AF6275F58AB00ABEC18 /* AppDelegate.swift */,
+				42487B232761F72200ABEC18 /* ShopView.swift */,
 				42487AF8275F58AB00ABEC18 /* ContentView.swift */,
+				42B5705427635B4A00F908D8 /* MainView.swift */,
 				42487AFA275F58AB00ABEC18 /* Experience.rcproject */,
-				42487AFC275F58AD00ABEC18 /* Assets.xcassets */,
+				42B5704F2763562900F908D8 /* Assets */,
+				42487B27276223E500ABEC18 /* Data */,
 				42487AFE275F58AD00ABEC18 /* Preview Content */,
 			);
 			path = Realtaaumentata;
@@ -130,6 +141,23 @@
 			path = RealtaaumentataUITests;
 			sourceTree = "<group>";
 		};
+		42487B27276223E500ABEC18 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				42487B25276223DB00ABEC18 /* Data.swift */,
+				42B5705227635A1D00F908D8 /* Clothes.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		42B5704F2763562900F908D8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				421B2CCE276A8AF8006C82F0 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,7 +175,7 @@
 			);
 			name = Realtaaumentata;
 			productName = Realtaaumentata;
-			productReference = 42487AF3275F58AB00ABEC18 /* Realtaaumentata.app */;
+			productReference = 42487AF3275F58AB00ABEC18 /* Vnmns weAR.app */;
 			productType = "com.apple.product-type.application";
 		};
 		42487B04275F58AD00ABEC18 /* RealtaaumentataTests */ = {
@@ -234,8 +262,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				421B2CCF276A8AF8006C82F0 /* Assets.xcassets in Resources */,
 				42487B00275F58AD00ABEC18 /* Preview Assets.xcassets in Resources */,
-				42487AFD275F58AD00ABEC18 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +288,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42B5705327635A1D00F908D8 /* Clothes.swift in Sources */,
+				42B5705527635B4A00F908D8 /* MainView.swift in Sources */,
 				42487AF9275F58AB00ABEC18 /* ContentView.swift in Sources */,
+				42487B26276223DB00ABEC18 /* Data.swift in Sources */,
 				42487AF7275F58AB00ABEC18 /* AppDelegate.swift in Sources */,
+				42487B242761F72200ABEC18 /* ShopView.swift in Sources */,
 				42487AFB275F58AB00ABEC18 /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,6 +458,7 @@
 				DEVELOPMENT_TEAM = HP5KN8K9AX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -438,8 +471,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.eliowmb.Realtaaumentata;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eliowmb.realtaaumentata;
+				PRODUCT_NAME = "Vnmns weAR";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,6 +490,7 @@
 				DEVELOPMENT_TEAM = HP5KN8K9AX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -469,8 +503,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.eliowmb.Realtaaumentata;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eliowmb.realtaaumentata;
+				PRODUCT_NAME = "Vnmns weAR";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
